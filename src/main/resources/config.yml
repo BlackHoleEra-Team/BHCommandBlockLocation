@@ -1,0 +1,36 @@
+# 插件语言设置
+# 可选值: zh_cn (简体中文), en_us (English)
+language: zh_cn
+
+# 消息配置
+messages:
+  zh_cn:
+    no_permission: "&c你没有权限使用此命令!"
+    plugin_enabled: "命令方块位置监控插件已启用"
+    permission_info: "使用权限节点: %permission%"
+    usage: "&c用法: /bhecommandblocklocation <on|off|reload|lang>"
+    enabled: "&a[BHCB] 命令方块位置监控已开启"
+    disabled: "&c[BHCB] 命令方块位置监控已关闭"
+    invalid_arg: "&c无效参数! 使用: /bhecommandblocklocation <on|off|reload|lang>"
+    reloaded: "&a[BHCB] 配置重载完成"
+    unknown_language: "&c未知的语言: %language%"
+    language_changed: "&a[BHCB] 语言已切换为: %language%"
+
+  en_us:
+    no_permission: "&cYou don't have permission to use this command!"
+    plugin_enabled: "Command block location monitor plugin enabled"
+    permission_info: "Using permission node: %permission%"
+    usage: "&cUsage: /bhecommandblocklocation <on|off|reload|lang>"
+    enabled: "&a[BHCB] Command block location monitoring enabled"
+    disabled: "&c[BHCB] Command block location monitoring disabled"
+    invalid_arg: "&cInvalid argument! Use: /bhecommandblocklocation <on|off|reload|lang>"
+    reloaded: "&a[BHCB] Configuration reloaded"
+    unknown_language: "&cUnknown language: %language%"
+    language_changed: "&a[BHCB] Language changed to: %language%"
+
+# 插件设置
+settings:
+  # 是否在启动时自动启用监控
+  auto_enable: false
+  # 日志格式
+  log_format: "[BHCB] 世界=%s 坐标=[%d,%d,%d] 命令=%s"
