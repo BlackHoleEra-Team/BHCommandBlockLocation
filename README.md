@@ -1,4 +1,4 @@
-#BHCommandBlockLocation
+# BHCommandBlockLocation
 ## 一个Paper/Bukkit插件可以识别正在运行的命令方块
 版本支持：Paper/Bukkit **1.21.x**
 
