@@ -1,0 +1,16 @@
+name: bhcb
+version: '1.2.0-beta'
+main: com.bhe.bhcb.Bhcb
+api-version: '1.21'
+author: "BlackHoleEraTeam"
+
+commands:
+  bhecommandblocklocation:
+    usage: /bhecommandblocklocation <on|off|reload|lang>
+    description: 开启/关闭命令方块指令监控或重载配置
+    aliases: [bhcb]
+
+permissions:
+  bhcb.admin:
+    description: 允许使用命令方块位置监控命令
+    default: op
